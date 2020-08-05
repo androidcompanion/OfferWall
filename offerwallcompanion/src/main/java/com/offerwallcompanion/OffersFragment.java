@@ -58,13 +58,13 @@ public class OffersFragment extends Fragment {
     GsonUtils gsonUtils;
     SharedPreferences.Editor offreEditor;
     Gson gson;
-    Class<?> nextActivity;
     Activity activity;
     String url;
+    Callable<Void> mathodToCall;
 
-    public  OffersFragment(Activity activity,Class<?> nextActivity,String url){
+    public  OffersFragment(Activity activity,String url,Callable<Void> mathodToCall){
         this.activity = activity;
-        this.nextActivity = nextActivity;
+        this.mathodToCall = mathodToCall;
         this.url = url;
     }
 
@@ -334,8 +334,14 @@ public class OffersFragment extends Fragment {
                     if (isAppInstalled) {
                         //This intent will help you to launch if the package is already installed
 
-                        Intent intent = new Intent(getContext(), nextActivity);
-                        startActivity(intent);
+//                        Intent intent = new Intent(getContext(), nextActivity);
+//                        startActivity(intent);
+
+                        try {
+                            mathodToCall.call();
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
                         activity.finish();
 
                     } else {

@@ -25,7 +25,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="Download app and Give review than Get More"
+                android:text="Download app and Give review to Get More"
                 android:textColor="@android:color/holo_orange_dark"
                 android:textSize="12sp" />
 
@@ -34,8 +34,7 @@
                 android:background="@drawable/bg_offer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:padding="5dp">
+                android:layout_margin="5dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -161,7 +160,6 @@
                             android:id="@+id/txt_6"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:lines="2"
                             android:padding="5dp"
                             android:text="@string/_6_give_feedback_review_to"
                             android:textColor="#636262" />
