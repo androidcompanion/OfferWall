@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialogTheme_offer" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#01579B</item>
+        <item name="colorPrimaryDark">#0D47A1</item>
+        <item name="colorAccent">#01579B</item>
+    </style>
+
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="ad">Ad</string>
+    <string name="_1_open_play_store">1. Open Play Store.</string>
+    <string name="_2_search_for_that_type_or_n_copy_this_name">2. Search , For that type or   copy this name.</string>
+    <string name="user_name">user_name</string>
+
+    <string name="_3_click_to_copy_icon_and_copy_application_name">3. Click to copy icon and copy Application name.</string>
+    <string name="_4_you_will_find_app_is_similar_like_above_icon_and_n_name_download_and_install_it">4. You will find app is similar like above icon and   name, download and install it.</string>
+
+    <string name="_5_open_and_ckeck_app_for_1_minutes">5. Open and ckeck app for 1 minutes.</string>
+    <string name="_6_give_feedback_review_to">6. Give Feedback(review) to</string>
+    <string name="note_give_your_valuable_feedback_and_get_n_more_follower_on_tiktok">Note : Give your valuable feedback and get   more follower on Tiktok.</string>
+
+
+</resources>
